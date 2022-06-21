@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Suelo
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 4267919131
+    locked: 0
+  - name: Estructuras
+    uniqueID: 1541084465
+    locked: 0
+  - name: Player/Enemigos
+    uniqueID: 1465573197
+    locked: 0
+  - name: Consumibles
+    uniqueID: 1243327869
+    locked: 0
+  - name: HUB
+    uniqueID: 1382638353
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
