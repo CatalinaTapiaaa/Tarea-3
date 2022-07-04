@@ -11,7 +11,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Char
+  - char
   - Water
   - UI
   - 
@@ -50,9 +50,9 @@ TagManager:
   - name: Player
     uniqueID: 3913127987
     locked: 0
-  - name: Sobrefonfo
+  - name: Sobrefondo
     uniqueID: 3965134021
     locked: 0
-  - name: aaa
+  - name: UI
     uniqueID: 4007507591
     locked: 0
