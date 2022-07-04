@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -244,6 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "Sin t\xEDtulo-1_1": 6486329856321769463
+      "Sin t\xEDtulo-1_3": -4614548299053550276
+      "Sin t\xEDtulo-1_2": -30594090272471809
+      "Sin t\xEDtulo-1_5": -4277922231811646550
+      "Sin t\xEDtulo-1_4": 7060532088859206924
+      "Sin t\xEDtulo-1_0": -5350007238205115906
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
