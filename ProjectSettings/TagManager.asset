@@ -53,6 +53,9 @@ TagManager:
   - name: Sobrefondo
     uniqueID: 3965134021
     locked: 0
+  - name: Enemy
+    uniqueID: 3726924027
+    locked: 0
   - name: UI
     uniqueID: 4007507591
     locked: 0
