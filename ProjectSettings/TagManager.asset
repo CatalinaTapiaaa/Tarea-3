@@ -14,7 +14,7 @@ TagManager:
   - char
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -50,11 +50,11 @@ TagManager:
   - name: Player
     uniqueID: 3913127987
     locked: 0
-  - name: Sobrefondo
-    uniqueID: 3965134021
-    locked: 0
   - name: Enemy
     uniqueID: 3726924027
+    locked: 0
+  - name: Sobrefondo
+    uniqueID: 3965134021
     locked: 0
   - name: UI
     uniqueID: 4007507591
