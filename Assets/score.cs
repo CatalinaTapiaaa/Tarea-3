@@ -1,18 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.Events;
 
-public class NewBehaviourScript : MonoBehaviour
+public class score : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] TextMeshProUGUI textoUI;
+    [SerializeField] int initialScore;
+    [SerializeField] UnityEvent invoke1;
+    [SerializeField] UnityEvent invoke2;
+    [SerializeField] UnityEvent invoke3;
+
+
+    public void UpdateScore(int n)
     {
-        
+        initialScore += n;
+        // initialScore = initialScore + n;
+        textoUI.text = "Coins: "+ initialScore;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void InvokeChar1()
     {
-        
+        if (initialScore >= 5)
+        {
+            initialScore -= 5;
+            invoke1?.Invoke();
+            UpdateScore(0);
+        }
     }
+    public void InvokeChar2()
+    {
+        if (initialScore >= 7)
+        {
+            initialScore -= 7;
+            invoke1?.Invoke();
+            UpdateScore(0);
+        }
+    }
+    public void InvokeChar3()
+    {
+        if (initialScore >= 10)
+        {
+            initialScore -= 10;
+            invoke1?.Invoke();
+            UpdateScore(0);
+        }
+    }
+
 }
