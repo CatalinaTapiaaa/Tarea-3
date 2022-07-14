@@ -71,5 +71,7 @@ public class Move : Physics2DObject
 	{
 		// Apply the force to the Rigidbody2d
 		rigidbody2D.AddForce(movement * speed * 10f);
+
+		//rigidbody2D.velocity = movement.normalized;
 	}
 }
