@@ -34,7 +34,7 @@ public class score : MonoBehaviour
         if (initialScore >= 7)
         {
             initialScore -= 7;
-            invoke1?.Invoke();
+            invoke2?.Invoke();
             UpdateScore(0);
         }
     }
@@ -43,7 +43,7 @@ public class score : MonoBehaviour
         if (initialScore >= 10)
         {
             initialScore -= 10;
-            invoke1?.Invoke();
+            invoke3?.Invoke();
             UpdateScore(0);
         }
     }
