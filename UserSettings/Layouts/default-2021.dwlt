@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 140733
+  controlID: 75
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 140726
+  controlID: 81
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 140727
+  controlID: 128
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 429.59998
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
@@ -389,9 +389,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: -71.600006}
+      snapOffset: {x: 67.5, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
+      snapCorner: 0
       id: Orientation
       index: 0
       layout: 4
@@ -526,9 +526,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.9356704, y: 0.8777566, z: -0.08108813}
+    m_Target: {x: -3.9581246, y: -0.2737881, z: -0.12153725}
     speed: 2
-    m_Value: {x: -1.8938255, y: 0.88308233, z: -0.08382708}
+    m_Value: {x: -3.7458806, y: -0.15430257, z: -0.117292404}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -579,9 +579,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.812641
+    m_Target: 9.85755
     speed: 2
-    m_Value: 6.086535
+    m_Value: 9.433062
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -637,9 +637,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 265a0200
-      m_LastClickedID: 154150
-      m_ExpandedIDs: 947efbffee7efbff66edfbffdeeffbff34f7fbff78f7fbff36fafbff7600fcffbe00fcff2c03fcff8003fcff4e28fcff5028fcff8447fcff8c47fcffc892fcffce92fcff92a8fcff88a9fcff42ccfcff44ccfcff4accfcffbeccfcff66e8feff12fbffffd65500006456000090560000f05600002a570000769201000294010060940100c8940100d494010052950100b2c5010016c601002ac6010068c60100c6c6010074c70100a2c70100bcc7010042c801005cc801006ec80100dc3b0200e63b0200f63b0200603d0200384002002a4402005844020086440200a2440200b8440200a85902003a5b0200985b0200
+      m_SelectedIDs: 9c550000
+      m_LastClickedID: 21916
+      m_ExpandedIDs: 12fbffffd0570000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -722,7 +722,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
       y: 21
       width: 838
       height: 436.4
-    m_Scale: {x: 0.50509256, y: 0.50509256}
+    m_Scale: {x: 0.52939814, y: 0.52939814}
     m_Translation: {x: 419, y: 218.2}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -743,12 +743,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -829.5509
-      y: -432.00003
-      width: 1659.1018
-      height: 864.00006
+      x: -791.4648
+      y: -412.16617
+      width: 1582.9296
+      height: 824.33234
     m_MinimalGUI: 1
-  m_defaultScale: 0.50509256
+  m_defaultScale: 0.52939814
   m_LastWindowPixelSize: {x: 1047.5, y: 571.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -1004,22 +1004,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Scenes finales
+    - Assets/Bolt 2D LittleWars VE3
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/Scenes/Scenes finales
+  - Assets/Bolt 2D LittleWars VE3
   m_LastFoldersGridSize: 67
   m_LastProjectPath: C:\Users\Cata\Documents\GitHub\Tarea-3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 492.6}
-    m_SelectedIDs: 5a580000
-    m_LastClickedID: 22618
-    m_ExpandedIDs: 0000000016580000185800001a5800001c5800001e58000020580000225800002458000026580000285800002a5800003a580000425800007c5800003661000000ca9a3b
+    scrollPos: {x: 0, y: 335}
+    m_SelectedIDs: 5a5d0000
+    m_LastClickedID: 23898
+    m_ExpandedIDs: 00000000425d0000445d0000465d0000485d00004a5d00004c5d00004e5d0000505d0000525d0000545d0000565d0000585d00005a5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1047,7 +1047,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000016580000185800001a5800001c5800001e58000020580000225800002458000026580000285800002a580000385800003a58000000ca9a3b
+    m_ExpandedIDs: 00000000425d0000445d0000465d0000485d00004a5d00004c5d00004e5d0000505d0000525d0000545d0000565d0000585d00005a5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1099,7 +1099,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 28.600006}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 67
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 200
