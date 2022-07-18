@@ -15,6 +15,7 @@ TagManager:
   - BulletEnemy
   - BulletPlayer
   - 'Mini '
+  - MARICA
   layers:
   - Default
   - TransparentFX
@@ -69,6 +70,9 @@ TagManager:
     locked: 0
   - name: Sobrefondo
     uniqueID: 3965134021
+    locked: 0
+  - name: vida
+    uniqueID: 2562458623
     locked: 0
   - name: UI
     uniqueID: 4007507591

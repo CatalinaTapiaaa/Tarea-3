@@ -22,27 +22,27 @@ public class score : MonoBehaviour
 
     public void InvokeChar1()
     {
-        if (initialScore >= 5)
+        if (initialScore >= 3)
         {
-            initialScore -= 5;
+            initialScore -= 3;
             invoke1?.Invoke();
             UpdateScore(0);
         }
     }
     public void InvokeChar2()
     {
-        if (initialScore >= 7)
+        if (initialScore >= 5)
         {
-            initialScore -= 7;
+            initialScore -= 5;
             invoke2?.Invoke();
             UpdateScore(0);
         }
     }
     public void InvokeChar3()
     {
-        if (initialScore >= 10)
+        if (initialScore >= 7)
         {
-            initialScore -= 10;
+            initialScore -= 7;
             invoke3?.Invoke();
             UpdateScore(0);
         }
