@@ -1017,7 +1017,7 @@ GameObject:
   - component: {fileID: 233647650}
   m_Layer: 0
   m_Name: ScenePrefab
-  m_TagString: Untagged
+  m_TagString: 'Mini '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 244037673}
   m_Layer: 3
   m_Name: 'spawn: escudo'
-  m_TagString: Untagged
+  m_TagString: 'Mini '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1065,7 +1065,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244037671}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.289501, y: -1.5545886, z: -0.022012684}
+  m_LocalPosition: {x: -5, y: -1.5, z: -0.022012684}
   m_LocalScale: {x: 1.1749833, y: 1.3248091, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2237,7 +2237,7 @@ GameObject:
   - component: {fileID: 482896653}
   m_Layer: 3
   m_Name: 'spawn: Caballero'
-  m_TagString: Untagged
+  m_TagString: 'Mini '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2250,7 +2250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482896651}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.9538248, y: -1.5545886, z: -0.022012684}
+  m_LocalPosition: {x: -3, y: -1.5, z: -0.022012684}
   m_LocalScale: {x: 1.1749833, y: 1.3248091, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3022,7 +3022,7 @@ GameObject:
   - component: {fileID: 534414797}
   m_Layer: 3
   m_Name: 'Base Blue '
-  m_TagString: MARICA
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3854,7 +3854,7 @@ GameObject:
   - component: {fileID: 735838078}
   m_Layer: 3
   m_Name: 'spawn: arco'
-  m_TagString: Untagged
+  m_TagString: 'Mini '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3867,7 +3867,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735838076}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.6506996, y: -1.5545886, z: -0.022012684}
+  m_LocalPosition: {x: -4.5, y: -1.5, z: -0.022012684}
   m_LocalScale: {x: 1.1749833, y: 1.3248091, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7845,7 +7845,7 @@ GameObject:
   - component: {fileID: 1329897813}
   - component: {fileID: 1329897812}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: "\xBFque es esto?"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8907,9 +8907,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1780325657}
   - {fileID: 379268110}
   - {fileID: 459951490}
-  - {fileID: 1780325657}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9035,8 +9035,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1131735851}
-  - {fileID: 61711280}
   - {fileID: 2016639670}
+  - {fileID: 61711280}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9169,7 +9169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569402947948130071, guid: 60f35b144d3302648891d016efd30a00, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3569402947948130071, guid: 60f35b144d3302648891d016efd30a00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10375,7 +10375,7 @@ GameObject:
   - component: {fileID: 1944146766}
   - component: {fileID: 1944146765}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Square (Que es esto?)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10849,7 +10849,7 @@ GameObject:
   - component: {fileID: 2012717069}
   m_Layer: 0
   m_Name: ALIADOS
-  m_TagString: Untagged
+  m_TagString: 'Mini '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11034,7 +11034,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108567882189207929, guid: 1e2853175438c6344a84c62a293c07f0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 108567882189207929, guid: 1e2853175438c6344a84c62a293c07f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11084,6 +11084,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108567882536595373, guid: 1e2853175438c6344a84c62a293c07f0, type: 3}
+      propertyPath: m_TagString
+      value: 'Mini '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e2853175438c6344a84c62a293c07f0, type: 3}
 --- !u!1001 &855031087357713328
@@ -11093,6 +11097,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1567537427}
     m_Modifications:
+    - target: {fileID: 855031085879763214, guid: 42afac1b2ac22bc4e852e16538b00846, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.61
+      objectReference: {fileID: 0}
     - target: {fileID: 855031086297362586, guid: 42afac1b2ac22bc4e852e16538b00846, type: 3}
       propertyPath: m_Name
       value: ESPADA-----------
@@ -11161,6 +11169,10 @@ PrefabInstance:
       propertyPath: health
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 855031087140843512, guid: 42afac1b2ac22bc4e852e16538b00846, type: 3}
+      propertyPath: m_TagString
+      value: 'Mini '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42afac1b2ac22bc4e852e16538b00846, type: 3}
 --- !u!1001 &916954227697817536
@@ -11170,10 +11182,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1567537427}
     m_Modifications:
+    - target: {fileID: 916954228006839749, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 916954228006839750, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 916954228006839750, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 916954228006839751, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 916954228589836574, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
       propertyPath: prefabBulletToSpawn
       value: 
       objectReference: {fileID: 808280617}
+    - target: {fileID: 916954229289671525, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
+      propertyPath: m_TagString
+      value: 'Mini '
+      objectReference: {fileID: 0}
     - target: {fileID: 916954229439720821, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
       propertyPath: m_Name
       value: 'Arquero----------- '
@@ -11184,7 +11216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 916954229439720822, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 916954229439720822, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -11234,6 +11266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 916954229520734540, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
+      propertyPath: m_TagString
+      value: 'Mini '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e53b808f66f58be429d014ab5fe664a7, type: 3}
 --- !u!1001 &5286657355650250032
@@ -11246,6 +11282,10 @@ PrefabInstance:
     - target: {fileID: 5286657355885679717, guid: 2fc5e24872848794ea660c0aaba7d13f, type: 3}
       propertyPath: m_Name
       value: Arco
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286657355885679717, guid: 2fc5e24872848794ea660c0aaba7d13f, type: 3}
+      propertyPath: m_TagString
+      value: 'Mini '
       objectReference: {fileID: 0}
     - target: {fileID: 5286657355885679718, guid: 2fc5e24872848794ea660c0aaba7d13f, type: 3}
       propertyPath: target
@@ -11335,6 +11375,10 @@ PrefabInstance:
     - target: {fileID: 5692262033116040396, guid: 9c40e227eb3702c43afcd41a8b2637e7, type: 3}
       propertyPath: m_Name
       value: Caballero
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692262033116040396, guid: 9c40e227eb3702c43afcd41a8b2637e7, type: 3}
+      propertyPath: m_TagString
+      value: 'Mini '
       objectReference: {fileID: 0}
     - target: {fileID: 5692262033116040398, guid: 9c40e227eb3702c43afcd41a8b2637e7, type: 3}
       propertyPath: m_RootOrder
@@ -11437,6 +11481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escudo
       objectReference: {fileID: 0}
+    - target: {fileID: 6234389811750265740, guid: 10824cd0209ea6143be2b4b4f2b9cc98, type: 3}
+      propertyPath: m_TagString
+      value: 'Mini '
+      objectReference: {fileID: 0}
     - target: {fileID: 6234389811750265743, guid: 10824cd0209ea6143be2b4b4f2b9cc98, type: 3}
       propertyPath: target
       value: 
@@ -11464,7 +11512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7421239573263986649, guid: 882b827d634046c449c6adf39f853b02, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7421239573263986649, guid: 882b827d634046c449c6adf39f853b02, type: 3}
       propertyPath: m_LocalScale.x
@@ -11565,7 +11613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9020123702061005777, guid: 19d898e13b5c731409badf5dc78b7b0c, type: 3}
       propertyPath: m_Name
-      value: Arquero-----------
+      value: ARCO-----------
       objectReference: {fileID: 0}
     - target: {fileID: 9020123702061005777, guid: 19d898e13b5c731409badf5dc78b7b0c, type: 3}
       propertyPath: m_IsActive
@@ -11573,7 +11621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9020123702061005778, guid: 19d898e13b5c731409badf5dc78b7b0c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9020123702061005778, guid: 19d898e13b5c731409badf5dc78b7b0c, type: 3}
       propertyPath: m_LocalScale.x
