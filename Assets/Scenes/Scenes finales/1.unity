@@ -482,7 +482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 79936152}
   m_Layer: 0
-  m_Name: Backroom
+  m_Name: Mapa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,7 +511,7 @@ Transform:
   - {fileID: 1152349088}
   - {fileID: 1640495382}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108113876
 GameObject:
@@ -607,7 +607,7 @@ RectTransform:
   m_Children:
   - {fileID: 985281159}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2305,7 +2305,7 @@ Transform:
   - {fileID: 730075408}
   - {fileID: 579396041}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &516732884
 GameObject:
@@ -4208,6 +4208,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1605721349}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &810955220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4488,7 +4500,7 @@ GameObject:
   - component: {fileID: 849271347}
   - component: {fileID: 849271348}
   m_Layer: 0
-  m_Name: VRROJO (1)
+  m_Name: Verificador de Victoria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4533,7 +4545,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &849271347
 MonoBehaviour:
@@ -5732,7 +5744,7 @@ GameObject:
   - component: {fileID: 1034034800}
   - component: {fileID: 1034034799}
   m_Layer: 6
-  m_Name: ESPADA (enemy) (1)
+  m_Name: 'ESPADA ( No en uso: raro)'
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5746,7 +5758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034034797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.495, y: -9.83, z: 0}
+  m_LocalPosition: {x: 3.17, y: -18.41, z: 0}
   m_LocalScale: {x: 0.95721006, y: 0.89806, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5754,7 +5766,7 @@ Transform:
   - {fileID: 73910521}
   - {fileID: 1973496329}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1034034799
 MonoBehaviour:
@@ -6362,7 +6374,7 @@ RectTransform:
   m_Children:
   - {fileID: 1432306778}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6572,7 +6584,7 @@ GameObject:
   - component: {fileID: 1149144347}
   - component: {fileID: 1149144346}
   m_Layer: 0
-  m_Name: VRAZUL
+  m_Name: Verificador Game Over
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6699,7 +6711,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1152349087
 GameObject:
@@ -7625,7 +7637,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1232373051
 MonoBehaviour:
@@ -8353,7 +8365,7 @@ Transform:
   - {fileID: 454624416}
   - {fileID: 856983755}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1487341532
 GameObject:
@@ -8849,6 +8861,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1605721349}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   happenOnlyOnce: 0
   filterByTag: 0
   filterTag: Player
@@ -8980,7 +9004,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1567537426
 GameObject:
@@ -9130,7 +9154,7 @@ Transform:
   m_Children:
   - {fileID: 657631136}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1628561486
 PrefabInstance:
@@ -9461,7 +9485,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656852982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.85, y: -0.08, z: 0}
+  m_LocalPosition: {x: -16.75, y: -0.42, z: 0}
   m_LocalScale: {x: 4.7884, y: 0.5318, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9909,7 +9933,7 @@ GameObject:
   - component: {fileID: 1737511580}
   - component: {fileID: 1737511579}
   m_Layer: 0
-  m_Name: VRROJO
+  m_Name: VRROJO (No en uso)
   m_TagString: base roja
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10024,7 +10048,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1780325656 stripped
 GameObject:
@@ -11440,7 +11464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7421239573263986649, guid: 882b827d634046c449c6adf39f853b02, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7421239573263986649, guid: 882b827d634046c449c6adf39f853b02, type: 3}
       propertyPath: m_LocalScale.x
@@ -11549,7 +11573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9020123702061005778, guid: 19d898e13b5c731409badf5dc78b7b0c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9020123702061005778, guid: 19d898e13b5c731409badf5dc78b7b0c, type: 3}
       propertyPath: m_LocalScale.x
